@@ -1,24 +1,20 @@
 import React from 'react'
+import { Routes, Route } from "react-router-dom";
 import { createGlobalStyle } from 'styled-components'
-import Navbar from './components/Navbar'
-import Header from './components/Header'
-import About from './components/About'
+import HomePage from './components/HomePage'
+import ProjectsPage from './components/ProjectsPage';
+import NotFound from './components/NotFound';
 
 const App = () => {
 
   return (
     <>
       <GlobalStyle />
-      <header>
-        <Navbar />
-        <Header />
-      </header>
-      <main>
-        <About />
-      </main>
-      <footer>
-
-      </footer>
+      <Routes>
+        <Route path="/" element={ <HomePage /> } />
+        <Route path="/proyectos" element={ <ProjectsPage /> } />
+        <Route path="*" element={ <NotFound /> } />
+      </Routes>
     </>
   )
 }
