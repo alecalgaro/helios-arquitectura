@@ -19,7 +19,13 @@ const Social_media = styled.div`
     justify-content: space-between;
     width: 8rem;
     margin-top: 1rem;
+
     img {
         width: 3.2rem;
+    }
+
+    a:hover{
+      opacity: 65%;
+      transition: opacity .3s;
     }
 `

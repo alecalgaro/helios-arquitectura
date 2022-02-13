@@ -11,7 +11,7 @@ const Header = () => {
         <BackgroundGrey />
         <HeaderContainer>
             <div className='logo'>
-                <img src={imgLogoHeader} alt="logo header"/>
+                <h1><img src={imgLogoHeader} alt="logo header"/></h1>
             </div>
             <SocialMedia />
         </HeaderContainer>

@@ -120,7 +120,7 @@ const NavContainer = styled.nav`
 
 const BgDiv = styled.div`
   background-color: var(--black);
-  position: absolute;
+  position: fixed;
   top: -1000px;
   left: -1000px;
   width: 100%;

@@ -2,6 +2,7 @@ import React from 'react'
 import { createGlobalStyle } from 'styled-components'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
+import About from './components/About'
 
 const App = () => {
 
@@ -13,10 +14,10 @@ const App = () => {
         <Header />
       </header>
       <main>
-
+        <About />
       </main>
       <footer>
-        
+
       </footer>
     </>
   )
@@ -41,5 +42,6 @@ const GlobalStyle = createGlobalStyle`
 
   html {
     font-size: 62.5%;
+    overflow-x: hidden;
   }
 `
