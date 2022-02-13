@@ -1,11 +1,45 @@
 import React from 'react'
+import { createGlobalStyle } from 'styled-components'
+import Navbar from './components/Navbar'
+import Header from './components/Header'
 
-function App() {
+const App = () => {
 
   return (
     <>
+      <GlobalStyle />
+      <header>
+        <Navbar />
+        <Header />
+      </header>
+      <main>
+
+      </main>
+      <footer>
+        
+      </footer>
     </>
   )
 }
 
-export default App
+export default App;
+
+const GlobalStyle = createGlobalStyle`
+  :root {
+    --black: #191919;
+    --grey: #E9E9E9;
+    --orange: #FF9E1B;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+`
