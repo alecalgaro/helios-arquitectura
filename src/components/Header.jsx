@@ -1,9 +1,8 @@
 import React from 'react'
+import SocialMedia from './SocialMedia'
 import styled from 'styled-components'
 import imgBackgroud from '../img/bg-header.webp'
 import imgLogoHeader from '../img/logo-header.webp'
-import icon_instagram from '../img/icon-instagram.webp'
-import icon_facebook from '../img/icon-facebook.webp'
 
 const Header = () => {
   return (
@@ -14,10 +13,7 @@ const Header = () => {
             <div className='logo'>
                 <img src={imgLogoHeader} alt="logo header"/>
             </div>
-            <div className='social'>
-                <a href=""><img src={icon_instagram} alt="icono instagram" /></a>
-                <a href=""><img src={icon_facebook} alt="icono facebook" /></a>
-            </div>
+            <SocialMedia />
         </HeaderContainer>
         
     </>
@@ -62,15 +58,5 @@ const HeaderContainer = styled.div`
     @media (min-width: 992px) {
         width: 30rem;
     }
-  }
-
-  .social {
-    display: flex;
-    justify-content: space-between;
-    width: 8rem;
-    margin-top: 1rem;
-    img {
-        width: 3.2rem;
-    } 
   }
 `
