@@ -17,10 +17,10 @@ const ServiceContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30rem;
-    height: 30rem;
+    width: 25rem;
+    height: 25rem;
     background-color: var(--orange);
-    margin-top: 10rem;
+    margin-top: 3rem;
     border-radius: 5rem;
     transition: all .3s;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -32,7 +32,7 @@ const ServiceContainer = styled.div`
 
     p, h3 {
         text-transform: uppercase;
-        font-size: 2rem;
+        font-size: 1.8rem;
         line-height: 2.5rem;
         text-align: center;
         margin: 0 1.2rem;
@@ -45,7 +45,7 @@ const ServiceContainer = styled.div`
     @media (min-width: 768px) {
         width: 25rem;
         height: 25rem;
-        margin: 10rem 2rem;
+        margin: 5rem 2rem;
 
         p {
             font-size: 1.6rem;

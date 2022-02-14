@@ -9,7 +9,7 @@ const Header = () => {
     <>
         <ImageBackground src={imgBackgroud} className="img-background" alt="imagen de fondo" />
         <BackgroundGrey />
-        <HeaderContainer>
+        <HeaderContainer id='home'>
             <div className='logo'>
                 <h1><img src={imgLogoHeader} alt="logo header"/></h1>
             </div>

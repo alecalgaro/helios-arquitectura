@@ -34,10 +34,15 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
   }
 
   html {
     font-size: 62.5%;
     overflow-x: hidden;
+  }
+
+  section[id] {
+    scroll-margin-top: 80px;
   }
 `
