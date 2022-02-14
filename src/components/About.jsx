@@ -40,23 +40,6 @@ const AboutContainer = styled.section`
     height: 100%;
     margin: 5rem 0;
     position: relative;
-
-    h2 {
-        text-transform: uppercase;
-        position: absolute;
-        top: 0;
-        font-size: 4rem;
-        opacity: 20%;
-        color: var(--black);
-    }
-
-    h3 {
-        text-transform: uppercase;
-        position: absolute;
-        top: 3px;
-        font-size: 3rem;
-        color: var(--orange);
-    }
 `
 
 const Us = styled.div`
@@ -68,7 +51,8 @@ const Us = styled.div`
 
     img {
         width: 75%;
-        margin-bottom: 2rem;
+        margin: 2rem 0;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     }
 
     @media (min-width: 768px) {
@@ -97,6 +81,7 @@ const Helios = styled.div`
     img {
         width: 50%;
         margin-bottom: 2rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     }
 
     @media (min-width: 768px) {
