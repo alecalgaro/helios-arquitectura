@@ -38,7 +38,7 @@ const AboutContainer = styled.section`
     align-items: center;
     width: 100vw;
     height: 100%;
-    margin: 5rem 0;
+    margin: 5rem 0 3rem 0;
 `
 
 const Us = styled.div`

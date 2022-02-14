@@ -25,7 +25,9 @@ const ServicesContainer = styled.section`
   align-items: center;
   width: 100vw;
   height: 100%;
-  margin: 2rem 0;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: #f8f8f8;
 `
 
 const SubContainer = styled.div`
@@ -33,10 +35,9 @@ const SubContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3rem 0;
+  margin-top: 3rem;
 
   @media (min-width: 768px) {
     flex-direction: row;
   }
 `
-

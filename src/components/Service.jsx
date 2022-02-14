@@ -17,7 +17,7 @@ const ServiceContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 25rem;
+    width: 28rem;
     height: 25rem;
     background-color: var(--orange);
     margin-top: 3rem;
