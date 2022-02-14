@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Header from './Header'
 import About from './About'
 import Services from './Services'
+import Projects from './Projects'
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <main>
         <About />
         <Services />
+        <Projects />
       </main>
       <footer>
 
