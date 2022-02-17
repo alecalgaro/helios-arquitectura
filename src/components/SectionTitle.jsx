@@ -32,7 +32,7 @@ const H2 = styled.h2`
 const H3 = styled.h3`
   text-transform: uppercase;
   position: absolute;
-  top: 3px;
+  top: 4px;
   font-size: 3rem;
   color: var(--orange);
 `
