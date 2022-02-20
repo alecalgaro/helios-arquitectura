@@ -3,8 +3,9 @@ import styled from 'styled-components'
 import BurguerButton from './BurguerButton'
 
 import imgLogo from '../img/logo-nav.webp'
+import { Link } from 'react-router-dom'
 
-function Navbar() {
+function Navbar({ page }) {
 
   const [clicked, setClicked] = useState(false)
 
@@ -21,11 +22,20 @@ function Navbar() {
       <NavContainer>
         <a href="#home"><img src={imgLogo} alt="logo helios" /></a>
         <div className={`links ${clicked ? 'active' : ''}`}>
-          <a onClick={handleClickLink} href="#home">Inicio</a>
-          <a onClick={handleClickLink} href="#about">Nosotros</a>
-          <a onClick={handleClickLink} href="#services">Servicios</a>
-          <a onClick={handleClickLink} href="#projects">Proyectos</a>
-          <a onClick={handleClickLink} href="#contact">Contacto</a>
+          { page === 'home'
+            ?
+              <>
+              <a onClick={handleClickLink} href="#home">Inicio</a>
+              <a onClick={handleClickLink} href="#about">Nosotros</a>
+              <a onClick={handleClickLink} href="#services">Servicios</a>
+              <Link onClick={handleClickLink} to='/proyectos'>Proyectos</Link>
+              <a onClick={handleClickLink} href="#contact">Contacto</a>
+              </>
+            :
+              <>
+              <Link onClick={handleClickLink} to="/">Inicio</Link>
+              </>
+          }
         </div>
         <div className='burguer'>
           <BurguerButton clicked={clicked} handleClick={handleClickBtn} />

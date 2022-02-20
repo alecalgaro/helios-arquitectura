@@ -11,7 +11,7 @@ const HomePage = () => {
   return (
     <>
       <header>
-        <Navbar />
+        <Navbar page="home"/>
         <Header />
       </header>
       <main>

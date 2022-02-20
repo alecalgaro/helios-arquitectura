@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import SectionTitle from './SectionTitle'
 
@@ -6,7 +7,7 @@ const Projects = () => {
   return (
     <ProjectsContainer>
         <SectionTitle title="Proyectos" />
-        <p>Si te interesa conocer todos nuestros proyectos, haz click <a href="">aquí</a></p>
+        <p>Si te interesa conocer todos nuestros proyectos, haz click <Link to="/proyectos">aquí</Link></p>
     </ProjectsContainer>
   )
 }
