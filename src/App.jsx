@@ -4,6 +4,7 @@ import { createGlobalStyle } from 'styled-components'
 import HomePage from './components/HomePage'
 import ProjectsPage from './components/ProjectsPage';
 import NotFound from './components/NotFound';
+import ProjectDetails from './components/ProjectDetails';
 
 const App = () => {
 
@@ -13,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={ <HomePage /> } />
         <Route path="/proyectos" element={ <ProjectsPage /> } />
+        <Route path="/proyectos/:idProject" element={ <ProjectDetails /> } />
         <Route path="*" element={ <NotFound /> } />
       </Routes>
     </>
@@ -33,7 +35,6 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Josefin Sans', sans-serif;
     scroll-behavior: smooth;
   }

@@ -20,7 +20,7 @@ function Navbar({ page }) {
   return (
     <>
       <NavContainer>
-        <a href="#home"><img src={imgLogo} alt="logo helios" /></a>
+        <Link to="/"><img src={imgLogo} alt="logo helios" /></Link>
         <div className={`links ${clicked ? 'active' : ''}`}>
           { page === 'home'
             ?
@@ -34,6 +34,7 @@ function Navbar({ page }) {
             :
               <>
               <Link onClick={handleClickLink} to="/">Inicio</Link>
+              <Link onClick={handleClickLink} to='/proyectos'>Proyectos</Link>
               </>
           }
         </div>

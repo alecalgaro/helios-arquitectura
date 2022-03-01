@@ -1,41 +1,43 @@
 import React from 'react'
+import { useParams } from 'react-router-dom';
 import styled from 'styled-components'
-import imgProject from "../img/proyectos/1.webp";
+import Navbar from './Navbar';
+import projects from './data.json'
+import images from './data-images.json'
 
 const ProjectDetails = () => {
+
+  const { idProject } = useParams();
+	
   return (
-    <DetailsContainer>
-        <Details>
-            <h2>Casa LY</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dolore ipsum iure eius incidunt officia laboriosam sequi autem amet! Numquam culpa harum voluptate? Officia iste sapiente inventore magni placeat distinctio dolores explicabo culpa aperiam, laudantium earum totam dicta aliquam reiciendis nobis dolorem enim quos corrupti vero labore adipisci corporis voluptatem.</p>
-        </Details>
-        <GridContainer>
-			<GridItem>
-				<img src={imgProject} alt="" />
-			</GridItem>
-			<GridItem>
-				<img src={imgProject} alt="" />
-			</GridItem>
-            <GridItem>
-				<img src={imgProject} alt="" />
-			</GridItem>
-            <GridItem>
-				<img src={imgProject} alt="" />
-			</GridItem>
-            <GridItem>
-				<img src={imgProject} alt="" />
-			</GridItem>
-            <GridItem>
-				<img src={imgProject} alt="" />
-			</GridItem>
-            <GridItem>
-				<img src={imgProject} alt="" />
-			</GridItem>
-            <GridItem>
-				<img src={imgProject} alt="" />
-			</GridItem>
-		</GridContainer>
-    </DetailsContainer>
+    <>
+		<Navbar page="projects"/>
+
+		{projects.map( (project) => (
+			project.id == idProject
+			? 
+				<DetailsContainer key={project.id}>
+					<Details >
+						<h2>{project.title}</h2>
+						<p>{project.description}</p>
+					</Details>
+
+					<GridContainer>
+					{images.map( (item) => (
+						item.id_project == idProject
+						? 
+							<GridItem key={item.img}>
+								<img src={"http://drive.google.com/uc?export=view&id="+item.img} alt={project.title} />
+							</GridItem>
+						: 
+							null
+						))}
+					</GridContainer>
+				</DetailsContainer>
+			:
+				null
+            ))}
+    </>
   )
 }
 

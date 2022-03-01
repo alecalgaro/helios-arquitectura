@@ -1,60 +1,21 @@
 import React from "react";
 import styled from "styled-components";
-import imgProject from "../img/proyectos/1.webp";
-import ProjectDetails from "./ProjectDetails";
+import { Link } from "react-router-dom";
+import projects from './data.json';
 
-const ProjectGallery = () => {
-
+const ProjectGallery = () => { 
 	return (
 		<GridContainer>
-			<GridItem>
-				<img src={imgProject} alt="" />
-                <div className="bg-hover-item">
-                    <p>Casa LY</p>
-                </div>
-			</GridItem>
-			<GridItem>
-				<img src={imgProject} alt="" />
-                <div className="bg-hover-item">
-                    <p>Casa LY</p>
-                </div>
-			</GridItem>
-            <GridItem>
-				<img src={imgProject} alt="" />
-                <div className="bg-hover-item">
-                    <p>Casa LY</p>
-                </div>
-			</GridItem>
-            <GridItem>
-				<img src={imgProject} alt="" />
-                <div className="bg-hover-item">
-                    <p>Casa LY</p>
-                </div>
-			</GridItem>
-            <GridItem>
-				<img src={imgProject} alt="" />
-                <div className="bg-hover-item">
-                    <p>Casa LY</p>
-                </div>
-			</GridItem>
-            <GridItem>
-				<img src={imgProject} alt="" />
-                <div className="bg-hover-item">
-                    <p>Casa LY</p>
-                </div>
-			</GridItem>
-            <GridItem>
-				<img src={imgProject} alt="" />
-                <div className="bg-hover-item">
-                    <p>Casa LY</p>
-                </div>
-			</GridItem>
-            <GridItem>
-				<img src={imgProject} alt="" />
-                <div className="bg-hover-item">
-                    <p>Casa LY</p>
-                </div>
-			</GridItem>
+            {projects.map( (project) => (
+                <Link to={"/proyectos/" + project.id} key={project.id}>
+                    <GridItem>
+                        <img src={"http://drive.google.com/uc?export=view&id="+project.img} alt={project.title} />
+                        <div className="bg-hover-item">
+                            <p>{project.title}</p>
+                        </div>
+                    </GridItem>
+                </Link>
+            ))}
 		</GridContainer>
 	);
 };
@@ -86,6 +47,7 @@ const GridItem = styled.div`
 	align-items: center;
 	justify-content: center;
     position: relative;
+    cursor: pointer;
 	transition: transform 0.3s ease-in-out;
 
 	&:hover {
