@@ -4,12 +4,19 @@ import styled from 'styled-components'
 import imgBackgroud from '../img/bg-header.webp'
 import imgLogoHeader from '../img/logo-header.webp'
 
+import { motion } from "framer-motion"
+
 const Header = () => {
   return (
     <>
         <ImageBackground src={imgBackgroud} className="img-background" alt="imagen de fondo" />
         <BackgroundGrey />
-        <HeaderContainer id='home'>
+        <HeaderContainer 
+          id='home'
+          initial={{opacity: 0}}
+          animate={{opacity: 1}}
+          transition={{duration: .8}}
+          >
             <div className='logo'>
                 <h1><img src={imgLogoHeader} alt="logo header"/></h1>
             </div>
@@ -38,7 +45,7 @@ const BackgroundGrey = styled.div`
     left: 0;
 `
 
-const HeaderContainer = styled.div`
+const HeaderContainer = styled(motion.div)`
   display: flex;
   flex-direction: column;
   width: 100%;

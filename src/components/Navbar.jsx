@@ -75,7 +75,7 @@ const NavContainer = styled.nav`
   .links{
     position: absolute;
     top: -700px;
-    left: -1000px;
+    left: -1500px;
     right: 0;    /* es para cuando se cierra el menu, para que se vaya hacia la izquierda y arriba */
     text-align: center;
     transition: all .5s ease;
@@ -87,7 +87,7 @@ const NavContainer = styled.nav`
       text-transform: uppercase;
       font-weight: 700;
       letter-spacing: 2px;
-      margin: 2.5rem 1rem;
+      margin: 1.5rem;
       text-decoration: none;
       transition: letter-spacing .3s;
       
@@ -112,11 +112,15 @@ const NavContainer = styled.nav`
   }
   
   .links.active{
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    top: 200px;
+    margin: 0 auto;
+    top: 0;
     left: 0;
     right: 0;
     text-align: center;
@@ -133,7 +137,7 @@ const BgDiv = styled.div`
   background-color: var(--black);
   position: fixed;
   top: -1000px;
-  left: -1000px;
+  left: -1500px;
   width: 100%;
   height: 100%;
   z-index: 1;  

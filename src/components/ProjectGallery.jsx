@@ -3,13 +3,38 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import projects from './data.json';
 
+import { motion } from "framer-motion";
+
+const gridContainer = {
+    hidden: { opacity: 1, scale: 0 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delayChildren: 0.5,
+        staggerChildren: 0.2
+      }
+    }
+  };
+  
+  const gridItem = {
+    hidden: {opacity: 0 },
+    visible: {
+      opacity: 1
+    }
+  };
+
 const ProjectGallery = () => { 
 	return (
-		<GridContainer>
+		<GridContainer
+            variants={gridContainer}
+            initial="hidden"
+            animate="visible"
+            >
             {projects.map( (project) => (
                 <Link to={"/proyectos/" + project.id} key={project.id}>
-                    <GridItem>
-                        <img src={"http://drive.google.com/uc?export=view&id="+project.img} alt={project.title} />
+                    <GridItem variants={gridItem}>
+                        <img src={"https://drive.google.com/uc?export=view&id="+project.img} alt={project.title} />
                         <div className="bg-hover-item">
                             <p>{project.title}</p>
                         </div>
@@ -22,7 +47,7 @@ const ProjectGallery = () => {
 
 export default ProjectGallery;
 
-const GridContainer = styled.div`
+const GridContainer = styled(motion.div)`
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 	grid-auto-rows: minmax(150px, auto);
@@ -41,12 +66,14 @@ const GridContainer = styled.div`
 	}
 `;
 
-const GridItem = styled.div`
+const GridItem = styled(motion.div)`
 	display: flex;
     flex-direction: column;
 	align-items: center;
 	justify-content: center;
     position: relative;
+    width: 100%;
+    height: 100%;
     cursor: pointer;
 	transition: transform 0.3s ease-in-out;
 

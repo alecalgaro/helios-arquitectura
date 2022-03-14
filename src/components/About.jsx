@@ -4,6 +4,8 @@ import imgAbout from '../img/about.webp'
 import imgHelios from '../img/helios.webp'
 import SectionTitle from './SectionTitle'
 
+import { motion } from 'framer-motion'
+
 const About = () => {
   return (
     <AboutContainer id='about'>
