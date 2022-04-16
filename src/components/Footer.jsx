@@ -19,7 +19,7 @@ export default Footer;
 const FooterContainer = styled.section`
 	.footer {
 		margin: 2rem;
-		font-size: 1.3rem;
+		font-size: 1.4rem;
 		text-align: center;
 		line-height: 1.6rem;
     

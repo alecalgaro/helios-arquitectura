@@ -13,7 +13,7 @@ const gridContainer = {
       opacity: 1,
       scale: 1,
       transition: {
-        delayChildren: 0.2,
+        delayChildren: 0.3,
         staggerChildren: 0.2
       }
     }
@@ -93,12 +93,12 @@ const Details = styled.div`
     }
 
     p {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         margin: 0 1rem;
         line-height: 1.8rem;
 
         @media (min-width: 992px) {
-            font-size: 1.6rem;
+            font-size: 1.7rem;
 	    }
     }
 `

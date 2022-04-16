@@ -11,7 +11,6 @@ import imgLogoHeader from '../img/logo-header.webp'
 const Contact = () => {
   return (
     <ContactContainer id="contact">
-        {/* <SectionTitle title="Contacto" /> */}
         <img src={imgLogoHeader} alt="logo header" className='img-logo'/>
         <div className='info-container'>
             <div className='info-item'>
@@ -27,7 +26,6 @@ const Contact = () => {
                 <p>estudio.heliosarquitectura@gmail.com</p>
             </div>
         </div>
-        <SocialMedia />
     </ContactContainer>
   )
 }
@@ -82,7 +80,7 @@ const ContactContainer = styled.section`
     p {
         text-align: center;
         margin-bottom: 1.5rem;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     img {
@@ -96,12 +94,13 @@ const ContactContainer = styled.section`
 
         p { 
             margin-bottom: 0;
-            font-size: 1.5rem;
             line-height: 2rem;
         }
     }
+
+    @media (min-width: 992px) {
+        p { font-size: 1.6rem; }
+    }
     
   }
-
-  
 `
