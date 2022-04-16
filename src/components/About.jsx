@@ -4,24 +4,20 @@ import imgAbout from '../img/about.webp'
 import imgHelios from '../img/helios.webp'
 import SectionTitle from './SectionTitle'
 
-import { motion } from 'framer-motion'
-
 const About = () => {
   return (
     <AboutContainer id='about'>
         <SectionTitle title="Nosotros" />
         <Us>
             <img src={imgAbout} alt="foto nosotros" />
-            <Parrafo>Hola! Somos Mauro Yardín, Maximiliano Calgaro y Dolores Buteler.
-                Hoy tenemos el agrado de presentarnos para dar a conocer este hermoso proyecto que venimos armando hace un tiempo con mucho esfuerzo y dedicación, para demostrar nuestros conocimientos y pasión por la Arquitectura.
-                Nos conocimos y formamos en la Facultad de Arquitectura, Diseño y Urbanismo de la ciudad de Santa Fe, Argentina, donde nos convertimos en grandes amigos y compañeros de trabajo.
-                Con muchas ansias, comenzamos con Helios arquitectura, felices y esperanzados! GRACIAS!
+            <Parrafo>Somos Mauro Yardín, Maximiliano Calgaro y Dolores Buteler. Nos conocimos y formamos en la Facultad de Arquitectura, Diseño y Urbanismo de la ciudad de Santa Fe, Argentina. 
+                    En 2020 decidimos formar Helios Arquitectura. A partir de entonces nos dedicamos a la realización de proyectos de viviendas, reformas e interiorismo. También nos especialización en sistemas constructivos en seco (Steel Frame y Wood Frame).
             </Parrafo>
         </Us>
         <Helios>
             <img src={imgHelios} alt="imagen Helios" />
             <Parrafo>
-                <span>¿Por qué HELIOS arquitectura?</span><br />
+                <span>¿Por qué HELIOS arquitectura?</span><br /><br />
                 En las primeras décadas del siglo XX y en pleno auge del Movimiento Moderno, el arquitecto ucraniano Wladimiro Acosta, ahora radicado en Argentina, plantea los lineamientos del Sistema Helios, una manera original de concebir la arquitectura mediante la conjunción entre la arquitectura moderna y las características autóctonas de nuestro país.
                 Como estudio nos proponemos retomar estos nobles ideales y repensarlos en los tiempos presentes y de cara hacia el futuro. 
                 Se trata de concebir una arquitectura autentica, racional, que responda a su contexto, clima, paisaje, y arraigada en las necesidades particulares de cada persona.

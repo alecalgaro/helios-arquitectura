@@ -11,7 +11,7 @@ const gridContainer = {
       opacity: 1,
       scale: 1,
       transition: {
-        delayChildren: 0.5,
+        delayChildren: 0.2,
         staggerChildren: 0.2
       }
     }
@@ -34,7 +34,7 @@ const ProjectGallery = () => {
             {projects.map( (project) => (
                 <Link to={"/proyectos/" + project.id} key={project.id}>
                     <GridItem variants={gridItem}>
-                        <img src={"https://drive.google.com/uc?export=view&id="+project.img} alt={project.title} />
+                        <img src={project.img} alt={project.title} />
                         <div className="bg-hover-item">
                             <p>{project.title}</p>
                         </div>
@@ -114,5 +114,9 @@ const GridItem = styled(motion.div)`
             font-weight: bold;
             text-transform: uppercase;
         }
+
+        @media (max-width: 576px) {
+            opacity: 50%;
+	    }
     }
 `;

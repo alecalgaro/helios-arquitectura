@@ -1,45 +1,39 @@
 [
 	{
 		"id": 1,
-		"title": "Casa LY",
-		"img": "199KQpmc5ExD74M82eICDNUrevFA2JTYZ",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dolore ipsum iure eius incidunt officia laboriosam sequi autem amet! Numquam culpa harum voluptate? Officia iste sapiente inventore magni placeat distinctio dolores explicabo culpa aperiam, laudantium earum totam dicta aliquam reiciendis nobis dolorem enim quos corrupti vero labore adipisci corporis voluptatem"
+		"title": "Casa de tierra apisonada",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650072928/Helios%20Arquitectura/Concurso%20-%20Casa%20de%20tierra%20apisonada/1_zscfw4.webp",
+		"description": "Concurso realizado en el año 2020, cuyo objetivo consistía en diseñar una vivienda experimental utilizando la técnica de tierra apisonada o 'muro tapial'. La misma no debía tener mas de 30m2 y se construirá este año en el sureste de Eslovenia. De las 469 propuestas enviadas la nuestra logro quedar entre las 30 pre-seleccionadas para la final."
 	},
 	{
 		"id": 2,
-		"title": "Casa 2",
-		"img": "199KQpmc5ExD74M82eICDNUrevFA2JTYZ",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dolore ipsum iure eius incidunt officia laboriosam sequi autem amet! Numquam culpa harum voluptate? Officia iste sapiente inventore magni placeat distinctio dolores explicabo culpa aperiam, laudantium earum totam dicta aliquam reiciendis nobis dolorem enim quos corrupti vero labore adipisci corporis voluptatem"
+		"title": "Casa LY",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650072826/Helios%20Arquitectura/Casa%20LY/1_f0bcjx.webp",
+		"description": "El encargo consistía en una vivienda de dos dormitorios en un lote de 8,5m de ancho en un barrio de la ciudad de Chajarí. Para maximizar el espacio se dispuso la mayor parte de la vivienda sobre uno de los lados generando un juego de patios sociales y privados. El garaje funciona a su vez como quincho semicubierto. La mezcla de materiales como el ladrillo visto, el piso de cemento alisado y colores claros generan una atmósfera cálida y hogareña. Las perforaciones de los ladrillos y los grandes paños vidriados generan una adecuada conexión con el exterior manteniendo a su vez la privacidad."
 	},
 	{
 		"id": 3,
-		"title": "Casa 3",
-		"img": "199KQpmc5ExD74M82eICDNUrevFA2JTYZ",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dolore ipsum iure eius incidunt officia laboriosam sequi autem amet! Numquam culpa harum voluptate? Officia iste sapiente inventore magni placeat distinctio dolores explicabo culpa aperiam, laudantium earum totam dicta aliquam reiciendis nobis dolorem enim quos corrupti vero labore adipisci corporis voluptatem"
+		"title": "Quincho MC",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650073053/Helios%20Arquitectura/Quincho/1_br6ref.webp",
+		"description": "Propuesta para quincho y pileta en el fondo de un terreno de 12m. El mismo se materializa mediante un sistema constructivo en seco (perfiles de acero y paneles SIP) y grandes paños vidriados para lograr una adecuada conexión con el exterior. A su vez se retira unos metros del fondo dejando un patio de servicio lo cual permite iluminar y ventilar por ambas caras."
 	},
 	{
 		"id": 4,
-		"title": "Casa 3",
-		"img": "199KQpmc5ExD74M82eICDNUrevFA2JTYZ",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dolore ipsum iure eius incidunt officia laboriosam sequi autem amet! Numquam culpa harum voluptate? Officia iste sapiente inventore magni placeat distinctio dolores explicabo culpa aperiam, laudantium earum totam dicta aliquam reiciendis nobis dolorem enim quos corrupti vero labore adipisci corporis voluptatem"
+		"title": "Casa BC",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650073900/Helios%20Arquitectura/Casa%20BC/1_wo39ds.webp",
+		"description": "La vivienda se configura a partir de dos aspectos claves: el bloque de cemento como material principal y la construcción de la misma por etapas. La vivienda se desarrolla a partir de una tipología en “C” generando un patio central al cual se abren todos todos los ambientes. El retiro de la línea municipal y los bloques girados le brindan privacidad sobre el exterior sin perder la conexión."
 	},
 	{
 		"id": 5,
-		"title": "Casa 3",
-		"img": "199KQpmc5ExD74M82eICDNUrevFA2JTYZ",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dolore ipsum iure eius incidunt officia laboriosam sequi autem amet! Numquam culpa harum voluptate? Officia iste sapiente inventore magni placeat distinctio dolores explicabo culpa aperiam, laudantium earum totam dicta aliquam reiciendis nobis dolorem enim quos corrupti vero labore adipisci corporis voluptatem"
+		"title": "Casa MB",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650072887/Helios%20Arquitectura/Casa%20MB/1_lqhgko.webp",
+		"description": "En esta casa de campo se busco como idea principal la conexión con el paisaje. Al no tener límites en cuanto a proporciones del terreno, buscamos distribuir los locales de la vivienda en todos los sentidos, generar fluidez, y un ambiente diferente en cada uno de los espacios de la misma. Lo verde y la naturaleza se relacionan en cada parte, generando llenos y vacíos, tanto en la distribución funcional como en la materialidad, mediante diferentes juegos de trabas de ladrillos."
 	},
 	{
 		"id": 6,
-		"title": "Casa 3",
-		"img": "199KQpmc5ExD74M82eICDNUrevFA2JTYZ",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dolore ipsum iure eius incidunt officia laboriosam sequi autem amet! Numquam culpa harum voluptate? Officia iste sapiente inventore magni placeat distinctio dolores explicabo culpa aperiam, laudantium earum totam dicta aliquam reiciendis nobis dolorem enim quos corrupti vero labore adipisci corporis voluptatem"
-	},
-	{
-		"id": 7,
-		"title": "Casa 3",
-		"img": "199KQpmc5ExD74M82eICDNUrevFA2JTYZ",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dolore ipsum iure eius incidunt officia laboriosam sequi autem amet! Numquam culpa harum voluptate? Officia iste sapiente inventore magni placeat distinctio dolores explicabo culpa aperiam, laudantium earum totam dicta aliquam reiciendis nobis dolorem enim quos corrupti vero labore adipisci corporis voluptatem"
+		"title": "Remodelación taller",
+		"img": "https://res.cloudinary.com/alecalgaro/image/upload/v1650073087/Helios%20Arquitectura/Remodelaci%C3%B3n%20taller%20mec%C3%A1nico/1_pmj5ip.webp",
+		"description": "Reforma de taller electromecánico en la ciudad de Elisa, Santa Fe."
 	}
 ]
 

@@ -13,7 +13,7 @@ const gridContainer = {
       opacity: 1,
       scale: 1,
       transition: {
-        delayChildren: 0.5,
+        delayChildren: 0.2,
         staggerChildren: 0.2
       }
     }
@@ -54,7 +54,7 @@ const ProjectDetails = () => {
 					item.id_project == idProject
 					? 
 						<GridItem key={item.img} variants={gridItem}>
-							<img src={"https://drive.google.com/uc?export=view&id="+item.img} alt={project.title} />
+							<img src={item.img} alt={project.title} />
 						</GridItem>
 					: 
 						null

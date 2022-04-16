@@ -3,7 +3,9 @@ import styled from 'styled-components'
 import SectionTitle from './SectionTitle'
 import SocialMedia from './SocialMedia'
 
-import imgLogo from '../img/logo-nav.webp'
+import imgIconLoc from '../img/icon-loc.webp'
+import imgIconCel from '../img/icon-cel.webp'
+import imgIconEmail from '../img/icon-email.webp'
 import imgLogoHeader from '../img/logo-header.webp'
 
 const Contact = () => {
@@ -13,15 +15,15 @@ const Contact = () => {
         <img src={imgLogoHeader} alt="logo header" className='img-logo'/>
         <div className='info-container'>
             <div className='info-item'>
-                <img src={imgLogo} alt="" />
+                <img src={imgIconLoc} alt="" />
                 <p>Chajari, Entre Ríos <br /> Santa Fe, Santa Fe</p>
             </div>
             <div className='info-item'>
-                <img src={imgLogo} alt="" />
+                <img src={imgIconCel} alt="" />
                 <p>3456-546096 (Chajari) <br /> 3497-687754 (Santa Fe)</p>
             </div>
             <div className='info-item'>
-                <img src={imgLogo} alt="" />
+                <img src={imgIconEmail} alt="" />
                 <p>estudio.heliosarquitectura@gmail.com</p>
             </div>
         </div>
