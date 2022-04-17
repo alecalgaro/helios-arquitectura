@@ -11,7 +11,7 @@ const About = () => {
         <Us>
             <img src={imgAbout} alt="foto nosotros" />
             <Parrafo>Somos Mauro Yardín, Maximiliano Calgaro y Dolores Buteler. Nos conocimos y formamos en la Facultad de Arquitectura, Diseño y Urbanismo de la ciudad de Santa Fe, Argentina. 
-En 2020 decidimos formar Helios Arquitectura y dedicarnos a la realización de proyectos de viviendas, reformas y otras interverciones, tanto exteriores como interiores. 
+En 2020 decidimos formar Helios Arquitectura y dedicarnos a la realización de proyectos de viviendas, reformas y otras intervenciones, tanto exteriores como interiores. 
 A su vez, nos enfocamos en la especialización de sistemas constructivos en seco como el Steel Frame y Wood Frame.
             </Parrafo>
         </Us>
@@ -21,7 +21,7 @@ A su vez, nos enfocamos en la especialización de sistemas constructivos en seco
                 <span>¿Por qué HELIOS arquitectura?</span><br /><br />
                 En las primeras décadas del siglo XX y en pleno auge del Movimiento Moderno, el arquitecto ucraniano Wladimiro Acosta, ahora radicado en Argentina, plantea los lineamientos del Sistema Helios, una manera original de concebir la arquitectura mediante la conjunción entre la arquitectura moderna y las características autóctonas de nuestro país.
                 Como estudio nos proponemos retomar estos nobles ideales y repensarlos en los tiempos presentes y de cara hacia el futuro. 
-                Se trata de concebir una arquitectura autentica, racional, que responda a su contexto, clima, paisaje, y arraigada en las necesidades particulares de cada persona.
+                Se trata de concebir una arquitectura auténtica, racional, que responda a su contexto, clima, paisaje, y arraigada en las necesidades particulares de cada persona.
             </Parrafo>
         </Helios>
     </AboutContainer>
