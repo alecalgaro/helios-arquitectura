@@ -67,10 +67,15 @@ const ImageModal = styled(motion.div)`
 
     img { width: 95%; }
 
+    @media (min-width: 768px) {
+        img { width: 90%; }
+	}
+
     @media (min-width: 992px) {
-        img { 
-            width: 65%;
-            height: 85%;
-        }
+        img { width: 75%; }
+	}
+
+    @media (min-width: 1200px) {
+        img { width: 70%; }
 	}
 `
