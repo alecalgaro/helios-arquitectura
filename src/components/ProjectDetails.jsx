@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components'
 import Navbar from './Navbar';
+import Modal from './Modal';
 import projects from './data.json'
 import images from './data-images.json'
 
@@ -30,6 +31,14 @@ const ProjectDetails = () => {
 
   const { idProject } = useParams();
 	
+  const [modal, setModal] = useState(false);
+  const [imgModal, setImgModal] = useState("");
+
+  const openModalImage = (image) => {
+	setModal(true);
+	setImgModal(image);
+  }
+
   return (
     <>
 		<Navbar page="projects"/>
@@ -53,7 +62,7 @@ const ProjectDetails = () => {
 				{images.map( (item) => (
 					item.id_project == idProject
 					? 
-						<GridItem key={item.img} variants={gridItem}>
+						<GridItem key={item.img} variants={gridItem} onClick={() => openModalImage(item.img)}>
 							<img src={item.img} alt={project.title} />
 						</GridItem>
 					: 
@@ -64,6 +73,11 @@ const ProjectDetails = () => {
 			:
 				null
             ))}
+
+			{modal && <Modal 
+						setModal={setModal}
+						image={imgModal}
+					/>}
     </>
   )
 }
@@ -132,8 +146,8 @@ const GridItem = styled(motion.div)`
 	transition: transform 0.3s ease-in-out;
 
 	&:hover {
-		filter: opacity(0.9);
 		transform: scale(1.04);
+		cursor: pointer;
 	}
 
 	img {
