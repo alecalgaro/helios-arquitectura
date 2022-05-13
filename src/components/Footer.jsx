@@ -5,7 +5,7 @@ const Footer = () => {
 	return (
 		<FooterContainer>
 			<p className="footer">
-				Helios Arquitectura 2022 <br /> Página web desarrollada por{" "}
+				Helios Arquitectura 2022 <br /> Sitio web desarrollado por{" "}
 				<a href="https://alejandrocalgaro.netlify.app/" target="_blank">
 					Alejandro Calgaro
 				</a>
