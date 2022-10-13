@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import BtnCerrar from "../img/cerrar.svg";
+import BtnCerrar from "../../img/cerrar.svg";
 import { motion } from "framer-motion";
 
 const Modal = ({ setModal, image }) => {

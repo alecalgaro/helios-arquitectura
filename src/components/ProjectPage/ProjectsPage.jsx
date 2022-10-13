@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "./Navbar";
-import ProjectGallery from "../ProjectGallery";
+import Navbar from "../General/Navbar";
+import ProjectGallery from "./ProjectGallery";
 
 const ProjectsPage = () => {
 	return (

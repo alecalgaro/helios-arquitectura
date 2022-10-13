@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
-import Navbar from "./Navbar";
-import Modal from "../Modal";
+import Navbar from "../General/Navbar";
+import Modal from "./Modal";
 import projects from "../../data/data.json";
 import images from "../../data/data-images.json";
 
