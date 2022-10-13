@@ -53,10 +53,10 @@ const ProjectDetails = () => {
 						</DetailsContainer>
 
 						<GridContainer variants={gridContainer} initial="hidden" animate="visible">
-							{images.map((item) =>
+							{images.map((item, index) =>
 								item.id_project == idProject ? (
 									<GridItem
-										key={item.img}
+										key={index}
 										variants={gridItem}
 										onClick={() => openModalImage(item.img)}
 									>

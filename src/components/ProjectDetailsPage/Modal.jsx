@@ -9,7 +9,7 @@ const Modal = ({ setModal, image }) => {
 	};
 
 	return (
-		<BgModal initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+		<BgModal initial={{ opacity: 0 }} animate={{ opacity: 1 }} onClick={ocultarModal}>
 			<BtnCerrarModal>
 				<ImgBtnCerrar src={BtnCerrar} alt="Botón para cerrar el modal" onClick={ocultarModal} />
 			</BtnCerrarModal>
@@ -53,23 +53,6 @@ const ImageModal = styled(motion.div)`
 
 	img {
 		width: 95%;
-	}
-
-	@media (min-width: 768px) {
-		img {
-			width: 90%;
-		}
-	}
-
-	@media (min-width: 992px) {
-		img {
-			width: 75%;
-		}
-	}
-
-	@media (min-width: 1200px) {
-		img {
-			width: 70%;
-		}
+		max-width: 780px;
 	}
 `;
