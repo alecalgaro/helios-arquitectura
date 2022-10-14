@@ -54,5 +54,6 @@ const ImageModal = styled(motion.div)`
 	img {
 		width: 95%;
 		max-width: 780px;
+		max-height: 98%;
 	}
 `;

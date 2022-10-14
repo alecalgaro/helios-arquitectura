@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import projects from "../../data/data.json";
-
+import data from "../../data/data.json";
 import { motion } from "framer-motion";
 
 const gridContainer = {
@@ -27,10 +26,10 @@ const gridItem = {
 const ProjectGallery = () => {
 	return (
 		<GridContainer variants={gridContainer} initial="hidden" animate="visible">
-			{projects.map((project) => (
+			{data.map((project) => (
 				<Link to={"/proyectos/" + project.id} key={project.id}>
 					<GridItem variants={gridItem}>
-						<img src={project.img} alt={project.title} />
+						<img src={project.images[0]} alt={project.title} />
 						<div className="bg-hover-item">
 							<p>{project.title}</p>
 						</div>
@@ -105,7 +104,7 @@ const GridItem = styled(motion.div)`
 		p {
 			position: absolute;
 			bottom: 2rem;
-			font-size: 2rem;
+			font-size: 1.6rem;
 			color: var(--grey);
 			font-weight: bold;
 			text-transform: uppercase;

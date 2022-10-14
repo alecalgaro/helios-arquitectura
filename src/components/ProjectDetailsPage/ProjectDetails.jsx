@@ -3,8 +3,7 @@ import { useParams } from "react-router-dom";
 import styled from "styled-components";
 import Navbar from "../General/Navbar";
 import Modal from "./Modal";
-import projects from "../../data/data.json";
-import images from "../../data/data-images.json";
+import data from "../../data/data.json";
 
 import { motion } from "framer-motion";
 
@@ -42,10 +41,10 @@ const ProjectDetails = () => {
 		<>
 			<Navbar page="projects" />
 
-			{projects.map((project) =>
+			{data.map((project) =>
 				project.id == idProject ? (
-					<>
-						<DetailsContainer key={project.id}>
+					<div key={project.id}>
+						<DetailsContainer>
 							<Details>
 								<h2>{project.title}</h2>
 								<p>{project.description}</p>
@@ -53,19 +52,13 @@ const ProjectDetails = () => {
 						</DetailsContainer>
 
 						<GridContainer variants={gridContainer} initial="hidden" animate="visible">
-							{images.map((item, index) =>
-								item.id_project == idProject ? (
-									<GridItem
-										key={index}
-										variants={gridItem}
-										onClick={() => openModalImage(item.img)}
-									>
-										<img src={item.img} alt={project.title} />
-									</GridItem>
-								) : null
-							)}
+							{project.images.map((image, index) => (
+								<GridItem key={index} variants={gridItem} onClick={() => openModalImage(image)}>
+									<img src={image} alt={project.title} />
+								</GridItem>
+							))}
 						</GridContainer>
-					</>
+					</div>
 				) : null
 			)}
 
