@@ -6,7 +6,7 @@ const Footer = () => {
 		<FooterContainer>
 			<p className="footer">
 				Helios Arquitectura 2022 <br /> Sitio web desarrollado por{" "}
-				<a href="https://alejandrocalgaro.netlify.app/" target="_blank">
+				<a href="https://alejandrocalgaro.com.ar" target="_blank">
 					Alejandro Calgaro
 				</a>
 			</p>
@@ -22,7 +22,7 @@ const FooterContainer = styled.section`
 		font-size: 1.4rem;
 		text-align: center;
 		line-height: 1.6rem;
-    
+
 		a {
 			text-decoration: none;
 			font-style: italic;
