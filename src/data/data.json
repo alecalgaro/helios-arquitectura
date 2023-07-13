@@ -156,5 +156,37 @@
 			"https://res.cloudinary.com/alecalgaro/image/upload/v1665784190/Helios%20Arquitectura/Concurso%20-%20Escuela%20T%C3%A9cnica/13_prwxcu.webp",
 			"https://res.cloudinary.com/alecalgaro/image/upload/v1665784197/Helios%20Arquitectura/Concurso%20-%20Escuela%20T%C3%A9cnica/14_bo7ev6.webp"
 		]
+	},
+
+	{
+		"id": 9,
+		"title": "Reforma casa de campo",
+		"description": "Reforma exterior e interior de una casa de campo en Mocoretá, Corrientes. Actualmente en construcción.",
+		"images": [
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689258912/Helios%20Arquitectura/Reforma%20casa%20de%20campo/1_z3xviu.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689258913/Helios%20Arquitectura/Reforma%20casa%20de%20campo/0_c62vre.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689116785/Helios%20Arquitectura/Reforma%20casa%20de%20campo/2_eskc3s.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689116784/Helios%20Arquitectura/Reforma%20casa%20de%20campo/3_szhywh.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689116782/Helios%20Arquitectura/Reforma%20casa%20de%20campo/4_i47ye3.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689116780/Helios%20Arquitectura/Reforma%20casa%20de%20campo/5_orh3bu.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689116778/Helios%20Arquitectura/Reforma%20casa%20de%20campo/6_nwvpmg.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689116777/Helios%20Arquitectura/Reforma%20casa%20de%20campo/7_m01yxv.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689116776/Helios%20Arquitectura/Reforma%20casa%20de%20campo/8_stcbqv.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689116774/Helios%20Arquitectura/Reforma%20casa%20de%20campo/9_qd4ojm.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689116770/Helios%20Arquitectura/Reforma%20casa%20de%20campo/10_sudjf5.webp"
+		]
+	},
+
+	{
+		"id": 10,
+		"title": "Diseño local iPhone",
+		"description": "Diseño interior para local de IPhone en Rosario.",
+		"images": [
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689260914/Helios%20Arquitectura/Local%20iPhone/1_mdcsgr.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689260188/Helios%20Arquitectura/Local%20iPhone/2_uic4zd.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689260187/Helios%20Arquitectura/Local%20iPhone/3_scyyvc.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689260186/Helios%20Arquitectura/Local%20iPhone/4_nzr8sx.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1689260184/Helios%20Arquitectura/Local%20iPhone/5_yabquo.webp"
+		]
 	}
 ]
