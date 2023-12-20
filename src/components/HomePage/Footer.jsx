@@ -5,8 +5,8 @@ const Footer = () => {
 	return (
 		<FooterContainer>
 			<p className="footer">
-				Helios Arquitectura 2022 <br /> Sitio web desarrollado por{" "}
-				<a href="https://alejandrocalgaro.com.ar" target="_blank">
+				Helios Arquitectura 2024 <br /> Sitio web desarrollado por{" "}
+				<a href="https://alecalgaro.com.ar" target="_blank">
 					Alejandro Calgaro
 				</a>
 			</p>

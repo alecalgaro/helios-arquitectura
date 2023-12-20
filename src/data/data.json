@@ -188,5 +188,66 @@
 			"https://res.cloudinary.com/alecalgaro/image/upload/v1689260186/Helios%20Arquitectura/Local%20iPhone/4_nzr8sx.webp",
 			"https://res.cloudinary.com/alecalgaro/image/upload/v1689260184/Helios%20Arquitectura/Local%20iPhone/5_yabquo.webp"
 		]
+	},
+
+	{
+		"id": 11,
+		"title": "Vivienda rural",
+		"description": "Vivienda rural de 180 m2, proyectada en las afueras de la ciudad de Chajari, Entre Ríos. Diseñada mediante sistemas industrializados en seco (paneles térmicos para muros y cubierta y estructura de perfiles de acero). Se priorizo la conexión con el exterior mediante grandes galerías, una terraza accesible y grandes aberturas que se abren en su totalidad.",
+		"images": [
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024122/Helios%20Arquitectura/Vivienda%20rural/1_tv5jql.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024120/Helios%20Arquitectura/Vivienda%20rural/2_afnkaj.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024114/Helios%20Arquitectura/Vivienda%20rural/3_cbtxcr.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024117/Helios%20Arquitectura/Vivienda%20rural/4_wtgmbu.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024115/Helios%20Arquitectura/Vivienda%20rural/5_p8llmh.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024111/Helios%20Arquitectura/Vivienda%20rural/6_y9bwdj.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024113/Helios%20Arquitectura/Vivienda%20rural/7_opfnez.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024107/Helios%20Arquitectura/Vivienda%20rural/8_ts39xk.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024108/Helios%20Arquitectura/Vivienda%20rural/9_ultaz1.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024105/Helios%20Arquitectura/Vivienda%20rural/10_thwlwl.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024104/Helios%20Arquitectura/Vivienda%20rural/11_gdyzvy.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024102/Helios%20Arquitectura/Vivienda%20rural/12_shzwln.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024099/Helios%20Arquitectura/Vivienda%20rural/13_imah4o.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024098/Helios%20Arquitectura/Vivienda%20rural/14_iso4bg.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024093/Helios%20Arquitectura/Vivienda%20rural/15_k40fmv.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703024092/Helios%20Arquitectura/Vivienda%20rural/16_t8j4y9.webp"
+		]
+	},
+
+	{
+		"id": 12,
+		"title": "Procrear + ampliación",
+		"description": "Se trata de una vivienda del PROCREAR (60m2), diseña y adaptada para una futura ampliación. Si estas interesado/a en diseñar tu vivienda PROCREAR, comunicate con nosotros.",
+		"images": [
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703032465/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/1_jvi2xk.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703032463/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/3_ifrqbz.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703032461/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/2_tfstul.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703032457/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/34_sn6l0f.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703032455/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/35_jw5gss.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703029014/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/4_uxjm0s.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703029016/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/5_nnsaqc.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703029010/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/6_ihkecx.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703029012/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/7_lhrkbf.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703029006/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/8_jkki5f.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703029004/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/9_pginfm.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703029002/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/10_vwl4al.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028749/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/11_manykk.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028745/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/13_pqj6gv.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028734/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/18_cec3yt.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028997/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/15_tu3gud.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028994/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/16_oygx6g.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028992/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/17_vmbrv5.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028659/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/19_ehky0l.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028657/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/20_t2x4y9.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028548/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/21_vhmvx2.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028545/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/22_n9hiti.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028543/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/23_vkmjjy.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028539/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/25_hlf01z.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028536/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/26_sj0amk.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028535/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/27_nas2rl.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028530/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/29_pf5xaj.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028524/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/31_dqfvme.webp",
+			"https://res.cloudinary.com/alecalgaro/image/upload/v1703028522/Helios%20Arquitectura/Vivienda%20Procrear%20%2B%20ampliaci%C3%B3n/32_y7jfno.webp"
+		]
 	}
 ]

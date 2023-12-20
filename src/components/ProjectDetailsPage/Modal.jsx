@@ -52,8 +52,13 @@ const ImageModal = styled(motion.div)`
 	align-items: center;
 
 	img {
-		width: 95%;
-		max-width: 780px;
-		max-height: 98%;
+		/* width: 95%; */
+		max-width: 90%;
+		max-height: 80%;
+
+		@media (min-width: 768px) {
+			max-width: 80%;
+			max-height: 85%;
+		}
 	}
 `;
